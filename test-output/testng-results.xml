@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="22" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-10T20:34:04 IST" name="Suite" finished-at="2024-05-10T20:35:25 IST" duration-ms="80690">
+    <groups>
+    </groups>
+    <test started-at="2024-05-10T20:34:04 IST" name="Test" finished-at="2024-05-10T20:35:25 IST" duration-ms="80690">
+      <class name="TestCases.TC_004Validate_LoanTenureCalculator">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_004Validate_LoanTenureCalculator@44c03695]" started-at="2024-05-10T20:35:10 IST" name="setup" finished-at="2024-05-10T20:35:13 IST" duration-ms="3595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_click_Calculators()[pri:0, instance:TestCases.TC_004Validate_LoanTenureCalculator@44c03695]" started-at="2024-05-10T20:35:13 IST" name="Validate_click_Calculators" finished-at="2024-05-10T20:35:13 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_click_Calculators -->
+        <test-method signature="Validate_click_loanCalculatorClick()[pri:1, instance:TestCases.TC_004Validate_LoanTenureCalculator@44c03695]" started-at="2024-05-10T20:35:13 IST" name="Validate_click_loanCalculatorClick" finished-at="2024-05-10T20:35:14 IST" duration-ms="1051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_click_loanCalculatorClick -->
+        <test-method signature="loanTenureCalculatorClick()[pri:2, instance:TestCases.TC_004Validate_LoanTenureCalculator@44c03695]" started-at="2024-05-10T20:35:14 IST" name="loanTenureCalculatorClick" finished-at="2024-05-10T20:35:23 IST" duration-ms="8139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanTenureCalculatorClick -->
+        <test-method signature="boxValidationCheck()[pri:3, instance:TestCases.TC_004Validate_LoanTenureCalculator@44c03695]" started-at="2024-05-10T20:35:23 IST" name="boxValidationCheck" finished-at="2024-05-10T20:35:23 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boxValidationCheck -->
+        <test-method signature="sliderValidationCheck()[pri:4, instance:TestCases.TC_004Validate_LoanTenureCalculator@44c03695]" started-at="2024-05-10T20:35:23 IST" name="sliderValidationCheck" finished-at="2024-05-10T20:35:25 IST" duration-ms="1805" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[LoanFees Slider is not Working expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: LoanFees Slider is not Working expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1031)
+at TestCases.TC_004Validate_LoanTenureCalculator.sliderValidationCheck(TC_004Validate_LoanTenureCalculator.java:96)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sliderValidationCheck -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.TC_004Validate_LoanTenureCalculator@44c03695]" started-at="2024-05-10T20:35:25 IST" name="teardown" finished-at="2024-05-10T20:35:25 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.TC_004Validate_LoanTenureCalculator -->
+      <class name="TestCases.TC_002Validate_HomeLoanCalculatorSection">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_002Validate_HomeLoanCalculatorSection@1573f9fc]" started-at="2024-05-10T20:34:16 IST" name="setup" finished-at="2024-05-10T20:34:21 IST" duration-ms="5055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_click_calculators(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_002Validate_HomeLoanCalculatorSection@1573f9fc]" started-at="2024-05-10T20:34:21 IST" name="validate_click_calculators" data-provider="HomeLoan" finished-at="2024-05-10T20:34:22 IST" duration-ms="1077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5000000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[january]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2027]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_click_calculators -->
+        <test-method signature="validate_click_HomeLoanEmiCalculator()[pri:1, instance:TestCases.TC_002Validate_HomeLoanCalculatorSection@1573f9fc]" started-at="2024-05-10T20:34:22 IST" name="validate_click_HomeLoanEmiCalculator" finished-at="2024-05-10T20:34:25 IST" depends-on-methods="TestCases.TC_002Validate_HomeLoanCalculatorSection.validate_click_calculators" duration-ms="3077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_click_HomeLoanEmiCalculator -->
+        <test-method signature="validate_HomeValue()[pri:2, instance:TestCases.TC_002Validate_HomeLoanCalculatorSection@1573f9fc]" started-at="2024-05-10T20:34:25 IST" name="validate_HomeValue" finished-at="2024-05-10T20:34:28 IST" depends-on-methods="TestCases.TC_002Validate_HomeLoanCalculatorSection.validate_click_HomeLoanEmiCalculator, TestCases.TC_002Validate_HomeLoanCalculatorSection.validate_click_calculators" duration-ms="2992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_HomeValue -->
+        <test-method signature="validate_HomeDownPayment()[pri:3, instance:TestCases.TC_002Validate_HomeLoanCalculatorSection@1573f9fc]" started-at="2024-05-10T20:34:28 IST" name="validate_HomeDownPayment" finished-at="2024-05-10T20:34:28 IST" depends-on-methods="TestCases.TC_002Validate_HomeLoanCalculatorSection.validate_click_HomeLoanEmiCalculator, TestCases.TC_002Validate_HomeLoanCalculatorSection.validate_click_calculators" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_HomeDownPayment -->
+        <test-method signature="validate_homeLoanInterest()[pri:4, instance:TestCases.TC_002Validate_HomeLoanCalculatorSection@1573f9fc]" started-at="2024-05-10T20:34:28 IST" name="validate_homeLoanInterest" finished-at="2024-05-10T20:34:28 IST" depends-on-methods="TestCases.TC_002Validate_HomeLoanCalculatorSection.validate_click_HomeLoanEmiCalculator, TestCases.TC_002Validate_HomeLoanCalculatorSection.validate_click_calculators" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_homeLoanInterest -->
+        <test-method signature="validate_homeLoanTenure()[pri:5, instance:TestCases.TC_002Validate_HomeLoanCalculatorSection@1573f9fc]" started-at="2024-05-10T20:34:28 IST" name="validate_homeLoanTenure" finished-at="2024-05-10T20:34:28 IST" depends-on-methods="TestCases.TC_002Validate_HomeLoanCalculatorSection.validate_click_HomeLoanEmiCalculator, TestCases.TC_002Validate_HomeLoanCalculatorSection.validate_click_calculators" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_homeLoanTenure -->
+        <test-method signature="Validate_LoanInsurance_AND_LoanFees()[pri:6, instance:TestCases.TC_002Validate_HomeLoanCalculatorSection@1573f9fc]" started-at="2024-05-10T20:34:28 IST" name="Validate_LoanInsurance_AND_LoanFees" finished-at="2024-05-10T20:34:29 IST" depends-on-methods="TestCases.TC_002Validate_HomeLoanCalculatorSection.validate_click_HomeLoanEmiCalculator, TestCases.TC_002Validate_HomeLoanCalculatorSection.validate_click_calculators" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_LoanInsurance_AND_LoanFees -->
+        <test-method signature="Validate_sendData_HomeOwnerExpenses()[pri:7, instance:TestCases.TC_002Validate_HomeLoanCalculatorSection@1573f9fc]" started-at="2024-05-10T20:34:29 IST" name="Validate_sendData_HomeOwnerExpenses" finished-at="2024-05-10T20:34:29 IST" depends-on-methods="TestCases.TC_002Validate_HomeLoanCalculatorSection.validate_click_HomeLoanEmiCalculator, TestCases.TC_002Validate_HomeLoanCalculatorSection.validate_click_calculators" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_sendData_HomeOwnerExpenses -->
+        <test-method signature="Validate_sendData_Date()[pri:8, instance:TestCases.TC_002Validate_HomeLoanCalculatorSection@1573f9fc]" started-at="2024-05-10T20:34:29 IST" name="Validate_sendData_Date" finished-at="2024-05-10T20:34:30 IST" depends-on-methods="TestCases.TC_002Validate_HomeLoanCalculatorSection.validate_click_HomeLoanEmiCalculator, TestCases.TC_002Validate_HomeLoanCalculatorSection.validate_click_calculators" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_sendData_Date -->
+        <test-method signature="validate_fetch_table()[pri:9, instance:TestCases.TC_002Validate_HomeLoanCalculatorSection@1573f9fc]" started-at="2024-05-10T20:34:30 IST" name="validate_fetch_table" finished-at="2024-05-10T20:34:36 IST" depends-on-methods="TestCases.TC_002Validate_HomeLoanCalculatorSection.validate_click_HomeLoanEmiCalculator, TestCases.TC_002Validate_HomeLoanCalculatorSection.validate_click_calculators" duration-ms="6114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_fetch_table -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.TC_002Validate_HomeLoanCalculatorSection@1573f9fc]" started-at="2024-05-10T20:34:36 IST" name="teardown" finished-at="2024-05-10T20:34:36 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.TC_002Validate_HomeLoanCalculatorSection -->
+      <class name="TestCases.TC_003Validate_LoanCalculator">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_003Validate_LoanCalculator@6150c3ec]" started-at="2024-05-10T20:34:36 IST" name="setup" finished-at="2024-05-10T20:35:02 IST" duration-ms="25918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_click_Calculators()[pri:0, instance:TestCases.TC_003Validate_LoanCalculator@6150c3ec]" started-at="2024-05-10T20:35:02 IST" name="Validate_click_Calculators" finished-at="2024-05-10T20:35:02 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_click_Calculators -->
+        <test-method signature="Validate_click_loanCalculatorClick()[pri:1, instance:TestCases.TC_003Validate_LoanCalculator@6150c3ec]" started-at="2024-05-10T20:35:02 IST" name="Validate_click_loanCalculatorClick" finished-at="2024-05-10T20:35:03 IST" duration-ms="1054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_click_loanCalculatorClick -->
+        <test-method signature="Validate_click_loanAmountCalculatorClick()[pri:2, instance:TestCases.TC_003Validate_LoanCalculator@6150c3ec]" started-at="2024-05-10T20:35:03 IST" name="Validate_click_loanAmountCalculatorClick" finished-at="2024-05-10T20:35:07 IST" duration-ms="3849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_click_loanAmountCalculatorClick -->
+        <test-method signature="Validate_boxValidationCheck()[pri:3, instance:TestCases.TC_003Validate_LoanCalculator@6150c3ec]" started-at="2024-05-10T20:35:07 IST" name="Validate_boxValidationCheck" finished-at="2024-05-10T20:35:07 IST" duration-ms="315" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Emi TextBox is not Working expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Emi TextBox is not Working expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at TestCases.TC_003Validate_LoanCalculator.Validate_boxValidationCheck(TC_003Validate_LoanCalculator.java:91)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_boxValidationCheck -->
+        <test-method signature="Validate_loanAmountYearToMonth()[pri:4, instance:TestCases.TC_003Validate_LoanCalculator@6150c3ec]" started-at="2024-05-10T20:35:07 IST" name="Validate_loanAmountYearToMonth" finished-at="2024-05-10T20:35:08 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_loanAmountYearToMonth -->
+        <test-method signature="emiAmountCalculatorSliderValidating()[pri:5, instance:TestCases.TC_003Validate_LoanCalculator@6150c3ec]" started-at="2024-05-10T20:35:08 IST" name="emiAmountCalculatorSliderValidating" finished-at="2024-05-10T20:35:09 IST" duration-ms="1900" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Emi TextBox is not Working expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Emi TextBox is not Working expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at TestCases.TC_003Validate_LoanCalculator.emiAmountCalculatorSliderValidating(TC_003Validate_LoanCalculator.java:152)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiAmountCalculatorSliderValidating -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.TC_003Validate_LoanCalculator@6150c3ec]" started-at="2024-05-10T20:35:10 IST" name="teardown" finished-at="2024-05-10T20:35:10 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.TC_003Validate_LoanCalculator -->
+      <class name="TestCases.TC_001Validate_CarLoanSection">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_001Validate_CarLoanSection@4c402120]" started-at="2024-05-10T20:34:04 IST" name="setup" finished-at="2024-05-10T20:34:11 IST" duration-ms="6487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_ClickCarLoan(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_001Validate_CarLoanSection@4c402120]" started-at="2024-05-10T20:34:11 IST" name="validate_ClickCarLoan" data-provider="carLoan" finished-at="2024-05-10T20:34:11 IST" duration-ms="104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_ClickCarLoan -->
+        <test-method signature="validate_allEntitySet()[pri:1, instance:TestCases.TC_001Validate_CarLoanSection@4c402120]" started-at="2024-05-10T20:34:11 IST" name="validate_allEntitySet" finished-at="2024-05-10T20:34:15 IST" depends-on-methods="TestCases.TC_001Validate_CarLoanSection.validate_ClickCarLoan" duration-ms="3720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_allEntitySet -->
+        <test-method signature="Validate_ExtractionOfemiAmount()[pri:2, instance:TestCases.TC_001Validate_CarLoanSection@4c402120]" started-at="2024-05-10T20:34:15 IST" name="Validate_ExtractionOfemiAmount" finished-at="2024-05-10T20:34:15 IST" depends-on-methods="TestCases.TC_001Validate_CarLoanSection.validate_ClickCarLoan" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_ExtractionOfemiAmount -->
+        <test-method signature="Validate_ExcelEmiData()[pri:3, instance:TestCases.TC_001Validate_CarLoanSection@4c402120]" started-at="2024-05-10T20:34:15 IST" name="Validate_ExcelEmiData" finished-at="2024-05-10T20:34:15 IST" depends-on-methods="TestCases.TC_001Validate_CarLoanSection.validate_ClickCarLoan" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_ExcelEmiData -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.TC_001Validate_CarLoanSection@4c402120]" started-at="2024-05-10T20:34:15 IST" name="teardown" finished-at="2024-05-10T20:34:16 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.TC_001Validate_CarLoanSection -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

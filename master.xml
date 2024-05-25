@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="Utilities.ExtentReportManager"></listener>
+	</listeners>
+
+	<test name="Test">
+		<parameter name="os" value="Windows"></parameter>
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+		<class name="TestCases.TC_001Validate_CarLoanSection"></class>
+		<class name="TestCases.TC_002Validate_HomeLoanCalculatorSection"></class>
+		<class name="TestCases.TC_003Validate_LoanCalculator"></class>
+		<class name="TestCases.TC_004Validate_LoanTenureCalculator"></class>   
+		</classes>
+	</test>
+</suite>

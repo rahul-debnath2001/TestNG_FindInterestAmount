@@ -1,0 +1,47 @@
+21:12:23.803 [main] INFO  TestCases.TC_001Validate_CarLoanSection - car loan clicked
+21:12:24.908 [main] INFO  TestCases.TC_001Validate_CarLoanSection - Car Loan Amount Set
+21:12:25.957 [main] INFO  TestCases.TC_001Validate_CarLoanSection - Interest Rate set
+21:12:27.538 [main] INFO  TestCases.TC_001Validate_CarLoanSection - Loan Tenure set
+21:12:27.539 [main] INFO  TestCases.TC_001Validate_CarLoanSection - all entity set
+21:12:27.838 [main] INFO  TestCases.TC_001Validate_CarLoanSection - Emi amount fetched properly
+21:12:27.854 [main] INFO  TestCases.TC_001Validate_CarLoanSection - Data is properly fetched in excel file
+21:12:27.854 [main] INFO  TestCases.TC_001Validate_CarLoanSection - ------------- Test Case 1 completed ---------------->>>>>
+21:12:34.035 [main] INFO  TestCases.TC_002Validate_HomeLoanCalculatorSection - ------------------ Start Test Case 2 -------------------------->>>>>>>>>>>>>
+21:12:34.100 [main] INFO  TestCases.TC_002Validate_HomeLoanCalculatorSection - click on calculators
+21:12:38.187 [main] INFO  TestCases.TC_002Validate_HomeLoanCalculatorSection - click on Home-Loan-Emi-Calculator
+21:12:40.593 [main] INFO  TestCases.TC_002Validate_HomeLoanCalculatorSection - Home value set
+21:12:40.726 [main] INFO  TestCases.TC_002Validate_HomeLoanCalculatorSection - Home Down Payment set
+21:12:40.923 [main] INFO  TestCases.TC_002Validate_HomeLoanCalculatorSection - Home Interest rate is set
+21:12:41.096 [main] INFO  TestCases.TC_002Validate_HomeLoanCalculatorSection - Home Loan Tenure is set
+21:12:41.377 [main] INFO  TestCases.TC_002Validate_HomeLoanCalculatorSection - Home Loan Insurance  & Loan Fees is set
+21:12:41.981 [main] INFO  TestCases.TC_002Validate_HomeLoanCalculatorSection - Home Owner Expenses is set
+21:12:42.394 [main] INFO  TestCases.TC_002Validate_HomeLoanCalculatorSection - Start date is set
+21:12:48.485 [main] INFO  TestCases.TC_002Validate_HomeLoanCalculatorSection - Table Data fetched properly
+21:12:48.485 [main] INFO  TestCases.TC_002Validate_HomeLoanCalculatorSection - -------------- Test Case 2 completed ------------------->>>>>>
+21:12:52.534 [main] INFO  TestCases.TC_003Validate_LoanCalculator - ----------------- Test Case 3 Started ----------------------
+21:12:52.626 [main] INFO  TestCases.TC_003Validate_LoanCalculator - click on calculators
+21:12:53.668 [main] INFO  TestCases.TC_003Validate_LoanCalculator - click on loan calculator
+21:12:58.063 [main] INFO  TestCases.TC_003Validate_LoanCalculator - click on loan Amount calculator window
+21:12:58.131 [main] INFO  TestCases.TC_003Validate_LoanCalculator - Emi TextBox is checked
+21:12:58.159 [main] INFO  TestCases.TC_003Validate_LoanCalculator - Interest Rate TextBox is checked
+21:12:58.226 [main] INFO  TestCases.TC_003Validate_LoanCalculator - Loan Tenure TextBox is checked
+21:12:58.258 [main] INFO  TestCases.TC_003Validate_LoanCalculator - Fees And Charges TextBox is checked
+21:12:58.508 [main] INFO  TestCases.TC_003Validate_LoanCalculator - year and month is checked
+21:12:59.004 [main] INFO  TestCases.TC_003Validate_LoanCalculator - Emi Slider is checked
+21:12:59.510 [main] INFO  TestCases.TC_003Validate_LoanCalculator - Interest Slider is checked
+21:12:59.976 [main] INFO  TestCases.TC_003Validate_LoanCalculator - LoanTenure Slider is checked
+21:13:00.456 [main] INFO  TestCases.TC_003Validate_LoanCalculator - LoanFees Slider is checked
+21:13:00.456 [main] INFO  TestCases.TC_003Validate_LoanCalculator - -------------- Test Case 3 is Completed--------------------->>>>>>>>>>>>
+21:13:05.296 [main] INFO  TestCases.TC_004Validate_LoanTenureCalculator - ----------------- Test Case 4 Started ----------------------
+21:13:05.360 [main] INFO  TestCases.TC_004Validate_LoanTenureCalculator - click on calculators
+21:13:06.408 [main] INFO  TestCases.TC_004Validate_LoanTenureCalculator - click on loan calculator
+21:13:10.339 [main] INFO  TestCases.TC_004Validate_LoanTenureCalculator - click on loan tenure calculator window
+21:13:10.416 [main] INFO  TestCases.TC_004Validate_LoanTenureCalculator - Loan Amount TextBox is checked
+21:13:10.445 [main] INFO  TestCases.TC_004Validate_LoanTenureCalculator - Emi TextBox is checked
+21:13:10.495 [main] INFO  TestCases.TC_004Validate_LoanTenureCalculator - Interest Rate TextBox is checked
+21:13:10.530 [main] INFO  TestCases.TC_004Validate_LoanTenureCalculator - Fees And Charges TextBox is checked
+21:13:11.008 [main] INFO  TestCases.TC_004Validate_LoanTenureCalculator - Loan Amount Slider is checked
+21:13:11.479 [main] INFO  TestCases.TC_004Validate_LoanTenureCalculator - Emi Slider is checked
+21:13:11.929 [main] INFO  TestCases.TC_004Validate_LoanTenureCalculator - Interest Slider is checked
+21:13:12.406 [main] INFO  TestCases.TC_004Validate_LoanTenureCalculator - LoanFees Slider is checked
+21:13:12.406 [main] INFO  TestCases.TC_004Validate_LoanTenureCalculator - ---------------- Test Case 4 is Completed --------------->>>>>>>>>>>>>>
